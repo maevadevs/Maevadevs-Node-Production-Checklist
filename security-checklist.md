@@ -2,7 +2,7 @@
 
 ## Security HTTP Headers Config
 
-These can be easliy done using the `Helmet` module
+These can be done using the `Helmet` module
 
 - `Strict-Transport-Security`: Enforce secure connections to the server (HTTP over SSL/TLS)
 - `X-Frame-Options`: Provide clickjacking protection
@@ -16,20 +16,20 @@ Make sure you are not exposing secrets and keys on the client-side
 
 ## Brute-Force Protection
 
-This can be easily done using the `ratelimiter` module or using a simple middleware
+This can be done using the `ratelimiter` module or using a simple middleware
 
 Protect the login endpoint using rate-limiting. 
 
 ## Cookie Flags
 
-These can be easily done using the `cookie` or `cookie-session` modules
+These can be done using the `cookie` or `cookie-session` modules
 
 - `secure`: This attribute tells the browser to only send the cookie if the request is being sent over HTTPS
 - `HttpOnly`: This attribute is used to help prevent attacks such as XSS: It does not allow the cookie to be accessed via JavaScript
 
 ## Cookie Scope
 
-These can be easily done using the `cookie` or `cookie-session` modules
+These can be done using the `cookie` or `cookie-session` modules
 
 - `domain`: This attribute is used to compare against the domain of the server in which the URL is being requested. If the domain matches or if it is a sub-domain, then the path attribute will be checked next.
 - `path`:  In addition to the domain, the URL path that the cookie is valid for can be specified. If the domain and path match, then the cookie will be sent in the request.
@@ -37,7 +37,7 @@ These can be easily done using the `cookie` or `cookie-session` modules
 
 ## CSRF Protection
 
-These can be easily done using the `csrf` or the `csurf` modules
+These can be done using the `csrf` or the `csurf` modules
 
 ## XSS Protection
 
@@ -47,5 +47,21 @@ Filter and sanitize all user inputs, both at the client-side (at submission) and
 
 - Use parameterized queries or prepared statements: Don't inject user inputs into the sql query
 - `sqlmap` service can be used to test for SQL Injections
+
+## Command Injection Protection
+
+- Filter and sanitize all user inputs, both at the client-side (at submission) and server-side (before usage)
+- Sanitize URLs
+- Use `child_process.execFile` instead of `child_process.exec` if needed
+
+## Secure Transmission
+
+These can be done using `nmap`, `sslyze`, and `letsencrypt` services 
+
+- Use SSL/TLS for all traffic with high grade ciphers
+- Test for ciphers, keys and renegotiation is properly configured
+- Test for certificate validity
+
+
 
 
