@@ -35,8 +35,17 @@ These can be easily done using the `cookie` or `cookie-session` modules
 - `path`:  In addition to the domain, the URL path that the cookie is valid for can be specified. If the domain and path match, then the cookie will be sent in the request.
 - `expires`: This attribute is used to set persistent cookies, since the cookie does not expire until the set date is exceeded.
 
-## CSRF
+## CSRF Protection
 
 These can be easily done using the `csrf` or the `csurf` modules
+
+## XSS Protection
+
+Filter and sanitize all user inputs, both at the client-side (at submission) and server-side (before usage)
+
+## SQL Injection Protection
+
+- Use parameterized queries or prepared statements: Don't inject user inputs into the sql query
+- `sqlmap` service can be used to test for SQL Injections
 
 
