@@ -34,3 +34,9 @@ These can be easily done using the `cookie` or `cookie-session` modules
 - `domain`: This attribute is used to compare against the domain of the server in which the URL is being requested. If the domain matches or if it is a sub-domain, then the path attribute will be checked next.
 - `path`:  In addition to the domain, the URL path that the cookie is valid for can be specified. If the domain and path match, then the cookie will be sent in the request.
 - `expires`: This attribute is used to set persistent cookies, since the cookie does not expire until the set date is exceeded.
+
+## CSRF
+
+These can be easily done using the `csrf` or the `csurf` modules
+
+
