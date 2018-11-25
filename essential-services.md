@@ -5,6 +5,7 @@ This is a list of some essential services. Some of these are not exclusive to No
 ## Security
 
 - [Snyk](https://snyk.io/)
+- [sqlmap](http://sqlmap.org/)
 
 ## Memory Storage
 
