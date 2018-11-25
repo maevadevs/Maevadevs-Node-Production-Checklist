@@ -72,4 +72,11 @@ These can be done using `nmap`, `sslyze`, and `let's encrypt` services
 
 This can be done using the module `safe-regex`
 
+## Catch Errors
 
+Errors can contains valuable information for hackers if exposed. Make sure to catch them and change the error messages.
+
+## NPM 3rd Party Packages
+
+- Make sure to only use clean packages
+- This can be done using the service `snyk` or the command `npm audit`
