@@ -46,3 +46,9 @@ For handling CSRF attacks.
 
 - [csrf](https://www.npmjs.com/package/csrf)
 - [csurf](https://www.npmjs.com/package/csurf)
+
+## Anti-ReDoS
+
+For checking for bad Regular Expressions that are prone to ReDoS exploit.
+
+- [safe-regex](https://www.npmjs.com/package/safe-regex)
