@@ -6,6 +6,9 @@ This is a list of some essential services. Some of these are not exclusive to No
 
 - [Snyk](https://snyk.io/)
 - [sqlmap](http://sqlmap.org/)
+- [nmap](https://nmap.org/)
+- [sslyze](https://github.com/iSECPartners/sslyze)
+- [let's encrypt](https://letsencrypt.org/)
 
 ## Memory Storage
 
