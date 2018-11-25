@@ -2,6 +2,12 @@
 
 This is a list of some essential modules.
 
+## Vulnerable Module Scanner
+
+For scanning for vulnerable modules.
+
+- [RetireJS](https://retirejs.github.io/retire.js/)
+
 ## Monitoring Tools
 
 For exception handling, performance monitoring, deployment status, load balancing...
