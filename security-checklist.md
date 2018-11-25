@@ -56,12 +56,20 @@ Filter and sanitize all user inputs, both at the client-side (at submission) and
 
 ## Secure Transmission
 
-These can be done using `nmap`, `sslyze`, and `letsencrypt` services 
+These can be done using `nmap`, `sslyze`, and `let's encrypt` services 
 
 - Use SSL/TLS for all traffic with high grade ciphers
 - Test for ciphers, keys and renegotiation is properly configured
 - Test for certificate validity
 
+## Account Lockout DoS Protection
 
+- After a small number of unsuccessful login attempts, the systems should prohibits login attempts for a given period.
+- Mitigate brute-force attacks
+- Rate-limiting pattern can be used for this
+
+## Regular Expression DoS Protection
+
+This can be done using the module `safe-regex`
 
 
