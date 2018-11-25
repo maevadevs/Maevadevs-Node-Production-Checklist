@@ -39,3 +39,10 @@ For managing cookies.
 
 - [cookies](https://www.npmjs.com/package/cookies)
 - [cookie-session](https://www.npmjs.com/package/cookie-session)
+
+## Anti-CSRF
+
+For handling CSRF attacks.
+
+- [csrf](https://www.npmjs.com/package/csrf)
+- [csurf](https://www.npmjs.com/package/csurf)
