@@ -5,6 +5,7 @@ This is a list of some essential services. Some of these are not exclusive to No
 ## Security
 
 - [Snyk](https://snyk.io/)
+- [OSSIndex](https://ossindex.sonatype.org/)
 - [sqlmap](http://sqlmap.org/)
 - [nmap](https://nmap.org/)
 - [sslyze](https://github.com/iSECPartners/sslyze)
