@@ -19,3 +19,9 @@ For logging, replacing `console.log` or simple external file write.
 For caching and session: This is the companion module for the Redis Service.
 
 - [Redis Node Client](http://redis.js.org/)
+
+## Setting Secure Headers
+
+For settings HTTP headers, especially secure headers.
+
+- [Helmet](https://www.npmjs.com/package/helmet)
