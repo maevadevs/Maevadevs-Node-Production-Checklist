@@ -1,2 +1,2 @@
 # node-production
-Checklists for Node in Production
+This is a collection of some essential checklists when runing Node in Production.
