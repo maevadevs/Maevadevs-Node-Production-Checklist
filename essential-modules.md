@@ -14,7 +14,7 @@ For logging, replacing `console.log` or simple external file write.
 
 - [Winston](https://www.npmjs.com/package/winston)
 
-## Memory Storage
+## In-Memory Storage
 
 For caching and session: This is the companion module for the Redis Service.
 
@@ -32,3 +32,10 @@ For limiting the allowable count for login.
 
 - [ratelimiter](https://www.npmjs.com/package/ratelimiter)
 - [async-ratelimiter](https://github.com/microlinkhq/async-ratelimiter)
+
+## Cookie Management
+
+For managing cookies.
+
+- [cookies](https://www.npmjs.com/package/cookies)
+- [cookie-session](https://www.npmjs.com/package/cookie-session)
